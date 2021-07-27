@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Exploring</title>
+    <!-- tailwind css -->
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- normal tailwind -->
+    <h1 class="text-6xl">I have a hidden tail you didn't know before</h1>
+    <h1 class="text-6xl bg-red-400 w-2/3 m-10">I have a hidden tail you didn't know before</h1>
+    <h1 class="text-3xl">I have a hidden tail you didn't know before</h1>
+    <h1 class="text-3xl font-bold">I have a hidden tail you didn't know before</h1>
+    <h1 class="text-3xl font-bold text-green-600">I have a hidden tail you didn't know before</h1>
+    <hr class="border-8	border-blue-500 m-10">
+    <!-- container tailwind -->
+
+    <section>
+        <h1 class="text-6xl">I have a hidden tail you didn't know before</h1>
+        <h1 class="text-6xl bg-red-400 w-2/3 m-10">I have a hidden tail you didn't know before</h1>
+        <h1 class="text-3xl">I have a hidden tail you didn't know before</h1>
+        <h1 class="text-3xl font-bold">I have a hidden tail you didn't know before</h1>
+        <h1 class="text-3xl font-bold text-green-600">I have a hidden tail you didn't know before</h1>
+    </section>
+    <section class="container mx-auto">
+        <h1 class="text-6xl">My section</h1>
+        <div class="text-5xl flex justify-center">
+            <div class="bg-green-600">
+                <h2 class="text-5xl">first flex box</h2>
+            </div>
+            <div class="bg-red-600  h-64 w-72 flex justify-center items-center">
+                <h2 class="text-5xl bg-purple-300">second</h2>
+            </div>
+        </div>
+    </section>
+    <!-- grid tailwind and column -->
+    <section class="bg-yellow-200">
+        <h2 class="text-5xl">Exploring greedy grid</h2>
+        <!-- grid container -->
+        <div class="grid grid-cols-4 gap-4">
+            <div class="col-span-2 bg-blue-400 p-10">1</div>
+            <div class="bg-blue-400 p-10">2</div>
+            <div class="bg-blue-400 p-10">3</div>
+            <div class="row-span-3 col-span-2 bg-blue-400 p-10">4</div>
+            <div class="bg-blue-400 p-10">5</div>
+            <div class="bg-blue-400 p-10">6</div>
+            <div class="bg-blue-400 p-10">7</div>
+            <div class="bg-blue-400 p-10">8</div>
+            <div class="bg-blue-400 p-10">9</div>
+            <div class="bg-blue-400 p-10">10</div>
+            <div class="bg-blue-400 p-10">11</div>
+            <div class="bg-blue-400 p-10">12</div>
+            <div class="bg-blue-400 p-10">13</div>
+            <div class="bg-blue-400 p-10">14</div>
+            <div class="bg-blue-400 p-10">15</div>
+            <div class="bg-blue-400 p-10">15</div>
+            <div class="bg-blue-400 p-10">15</div>
+            <div class="bg-blue-400 p-10">15</div>
+        </div>
+    </section>
+
+</body>
+
+</html>
